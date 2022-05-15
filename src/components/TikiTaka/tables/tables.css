@@ -1,0 +1,238 @@
+.table-container{
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin: 2px;
+    padding: 2px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-grow: 1;
+  }
+
+.premier {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    font-family:Stencil Std, fantasy;
+    transition-duration: 0.4s;
+    background-color: #38003C;
+    opacity: 90%;
+  }
+
+  .premier:hover{
+    transform: scale(1.05);
+    color: red;
+    background-color: #F1CF3B;
+  }
+
+  .bundes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    font-family:Stencil Std, fantasy;
+    transition-duration: 0.4s;
+    background-color: #D3010C;
+    opacity: 90%;
+  }
+  .bundes:hover{
+    transform: scale(1.05);
+    color: red;
+    background-color: #F1CF3B;
+  }
+
+  .laliga {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    font-family:Stencil Std, fantasy;
+    transition-duration: 0.4s;
+    background-color: #F6BE00;
+    opacity: 90%;
+  }
+  .laliga:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: #0077C8;
+  }
+
+  .ligue1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    font-family:Stencil Std, fantasy;
+    transition-duration: 0.4s;
+    background-color: #12233f;
+    opacity: 90%;
+  }
+
+  .ligue1:hover{
+    transform: scale(1.05);
+    color: red;
+    background-color: #F6BE00;
+  }
+
+  .seriea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    font-family:Stencil Std, fantasy;
+    transition-duration: 0.4s;
+    background-color: #008fd7;
+    opacity: 90%;
+  }
+
+  .seriea:hover{
+    transform: scale(1.05);
+    color: red;
+    background-color: #002d71;
+  }
+
+  .liganos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    font-family:Stencil Std, fantasy;
+    transition-duration: 0.4s;
+    background-color: #fbb904;
+    opacity: 90%;
+  }
+
+  .liganos:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: #002d71;
+  }
+
+  .brasileirao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    font-family:Stencil Std, fantasy;
+    transition-duration: 0.4s;
+    background-color:rgb(28, 149, 1);
+    opacity: 90%;
+  }
+
+  .brasileirao:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: #F6BE00;
+  }
+
+  .eredvise {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 5px;
+    font-family:Stencil Std, fantasy;
+    transition-duration: 0.4s;
+    background-color:rgb(250, 117, 0);
+    opacity: 90%;
+  }
+
+  .eredvise:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: #F6BE00;
+  }
+
+  .soccerIcons{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .club-table{
+    width: 45px;
+    height: 45px;
+}
+
+  .country{
+      width: 25px;
+      height: 25px;
+  }
+
+  .stats{
+      margin-left:85px;
+  }
+
+  .statics{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .details{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    flex-grow: 1;
+  }
+
+  
+  .table-title {
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-size: 80%;
+  }
+  
+  .table-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    flex-grow: 1;
+    color: #4c4c4c;
+  }

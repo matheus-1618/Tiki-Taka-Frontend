@@ -1,0 +1,59 @@
+.bottombar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.2rem;
+    background-color:#F1CF3B;
+    opacity: 70%;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.5);
+}
+.bot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.git{
+  transition-duration: 0.8s;
+  font-size: 20px;
+  color: black;
+  padding: 5px;
+  font-family:Stencil Std, fantasy;
+  margin: 5px;
+  text-decoration: none !important;
+  outline: 0;
+}
+
+.git:focus{
+  outline: 0;
+  text-decoration: none;
+}
+
+.git:hover{
+  color:white;
+  transform: scale(1.3);
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.icon:hover{
+  display: flex;
+  color:yellow;
+  background-color: transparent;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.logo {
+    width: 12%;
+  }
+

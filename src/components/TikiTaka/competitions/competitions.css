@@ -1,0 +1,58 @@
+
+.card-competitions {
+    width: 200px;
+    height: 120px;
+    flex-direction: column;
+    min-height: 10px;
+    margin: 10px 5px;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+    background-color: white;
+    font-family: "Permanent Marker", cursive;
+    transition-duration: 0.4s;
+  }
+
+  .card-competitions:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: #F1CF3B;
+  }
+
+.cardcompetitions-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-grow: 1;
+  } 
+  
+ .image-com{
+     height: 100%;
+ }
+ .link-com{
+  display:flex;
+  justify-content: flex-start;
+  color: black;
+  outline: none;
+}
+
+.link-com:link{
+  text-decoration: none;
+  outline: none;
+}
+
+.link-com img {
+  transition-duration: 0.4s;
+}
+
+.link-com img:hover{
+  transform: scale(1.05);
+  color: red;
+}
+ 

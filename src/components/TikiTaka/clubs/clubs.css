@@ -1,0 +1,115 @@
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    transition-duration: 0.4s;
+}
+
+.cabecalho:hover{
+    transform: scale(1.05);
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F1CF3B;
+    transition-duration: 0.4s;
+    border-radius: 18px;
+}
+
+.dados:hover{
+    background-color: #cccccc;
+    transform: scale(0.99);
+}
+
+.detalhes-clubes{
+    margin: 15px;
+    transition-duration: 0.4s;
+    font-size:200%;
+    color:black;
+    font-family:fantasy;
+}
+
+.detalhes-clubes:hover{
+    transform: scale(1.05);
+    color: blue;
+  }
+
+.letra-clube{
+    margin: 10px;
+    transition-duration: 0.4s;
+    font-size:400%;
+    color:#cccccc;
+    font-family:fantasy;
+  }
+  .letra-clube:hover{
+    color: #F1CF3B;
+  }
+
+
+.link{
+    display:flex;
+    justify-content: flex-start;
+    color: black;
+    outline: none;
+  }
+  
+  .link:link{
+    text-decoration: none;
+    outline: none;
+    color: black;
+  }
+  
+  .link img {
+    width: 40%;
+    transition-duration: 0.4s;
+  }
+  
+  .link img:hover{
+    transform: scale(1.05);
+    color: red;
+  }
+
+.card-clubs {
+    width: 200px;
+    height: 120px;
+    flex-direction: column;
+    min-height: 10px;
+    margin: 10px 5px;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+    background-color: white;
+    font-family:Stencil Std, fantasy;
+    font-size: 12px;
+    transition-duration: 0.4s;
+  }
+
+  .card-clubs:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: #F1CF3B;
+  }
+
+.cardclubs-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-grow: 1;
+  } 
+  
+
+
+
+ 
